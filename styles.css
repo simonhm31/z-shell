@@ -1,0 +1,15 @@
+body {
+    margin: auto;
+    text-align: center;
+    width: 75%;
+}
+
+.title {
+    padding: 0;
+    background-color: beige;
+    border: 1px solid black;
+}
+
+.basicCommands {
+    list-style-position: inside;
+}
