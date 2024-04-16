@@ -27,3 +27,13 @@ body {
     background-color: lightpink;
     margin-top: 1.5rem;
 }
+
+.subsubtitle {
+    margin: auto;
+    margin-bottom: 2rem;
+    border: 1px solid black;
+    background-color: beige;
+    margin-top: 1.5rem;
+    width: 75%;
+
+}
