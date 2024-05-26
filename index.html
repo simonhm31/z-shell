@@ -1,81 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Z-Shell Notes</title>
-    <link rel="icon" href="./favicon.png">
-    <link rel="stylesheet" href="./normalize.css">
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
+    <link rel="icon" href="./favicon.png" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
     <h1 class="title">Z-Shell Notes</h1>
 
     <div class="definition">
-        <h2>What is Z-Shell:</h2>
-        <p>Z-Shell is an superset of Bash. It is the default shell for MacOS</p>
-    </div> 
-
-    <div class="subtitle">
-        <h2>pwd</h2>
-        <p><code>"pwd"</code> prints the working directory</p>
-        <div class="subsubtitle">
-            <h3>Flags:</h3>
-            <ul>
-                <li><code>pwd -L</code> (default action)</li>
-                <li><code>pwd -P</code></li>
-            </ul>
-        </div>
+      <h2>What is Z-Shell:</h2>
+      <p>Z-Shell is an superset of Bash. It is the default shell for MacOS</p>
     </div>
 
     <div class="subtitle">
-        <h2>cd</h2>
-        <p><code>"cd [directory]"</code> changes current working directory</p>
-        <div class="subsubtitle">
-            <h3>Flags:</h3>
-        </div>
+      <h2>pwd</h2>
+      <p><code>"pwd"</code> prints the working directory</p>
+      <div class="subsubtitle">
+        <h3>Flags:</h3>
+        <ul>
+          <li><code>pwd -L</code> (default action)</li>
+          <li><code>pwd -P</code></li>
+        </ul>
+      </div>
     </div>
 
     <div class="subtitle">
-        <h2>ls</h2>
-        <p><code>"ls"</code> lists stuff inside current working directory</p>
-        <div class="subsubtitle">
-            <h3>Flags:</h3>
-            <ul>
-                <li><code>ls -l</code></li>
-                <p>Displays the mode, number of links, owner, group, size (in bytes), and time of last modification for each file.</p>
-                <img id="ls-picture" style="width: 600px; height: 200px;" src="ls_-l.png" alt="picture of ls -l">
-            </ul>
-        </div>
+      <h2>cd</h2>
+      <p><code>"cd [directory]"</code> changes current working directory</p>
+      <div class="subsubtitle">
+        <h3>Flags:</h3>
+      </div>
     </div>
 
+    <div class="subtitle">
+      <h2>ls</h2>
+      <p><code>"ls"</code> lists stuff inside current working directory</p>
+      <div class="subsubtitle">
+        <h3>Flags:</h3>
+        <ul>
+          <li><code>ls -l</code></li>
+          <p>
+            Displays the mode, number of links, owner, group, size (in bytes),
+            and time of last modification for each file.
+          </p>
+          <img
+            id="ls-picture"
+            style="width: 600px; height: 200px"
+            src="ls_-l.png"
+            alt="picture of ls -l"
+          />
+        </ul>
+      </div>
+    </div>
+    
     <div class="subtitle" style="background-color: lightpink">
-        <h2>Renaming Directories and Files:</h2>
-        <p>Navigate to the parent directory of the directory you want to change and running 
-            <br><code>"mv [current-filename] [new-filename]"</code></p>
+      <h2>Renaming Directories and Files:</h2>
+      <p>
+        Navigate to the parent directory of the directory you want to change and
+        running <br /><code>"mv [current-filename] [new-filename]"</code>
+      </p>
     </div>
 
     <div class="ssh">
-        <h2>SSH:</h2>
+      <h2>SSH:</h2>
     </div>
 
     <div class="subtitle">
-        <h2>File Ownership:</h2>
-
+      <h2>File Ownership:</h2>
     </div>
 
     <div class="subtitle">
-        <h2>Copy Directories</h2>
+      <h2>Copy Directories</h2>
 
-        <div class="text">
-            <p>
-                copy in terminal <code>cp -R [path to sourcedir] [path to destdir]</code>
-            </p>
-        </div>
+      <div class="text">
+        <p>
+          copy in terminal
+          <code>cp -R [path to sourcedir] [path to destdir]</code>
+        </p>
+      </div>
     </div>
-
-
-
-    
-</body>
+  </body>
 </html>
